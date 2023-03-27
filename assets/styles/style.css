@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Karma:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Karma:wght@300&display=swap");
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: Karma, sans-serif;
-  /* border: 1px solid red; */
 }
 
 body {
@@ -63,7 +62,7 @@ body {
 
 .types-food {
   width: 100%;
-  padding: 150px 80px 30px 80px;
+  padding: 150px 80px 30px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -104,6 +103,10 @@ body {
   color: #fff;
   background: #000;
   text-align: center;
+}
+
+.footer1 a {
+  color: #000;
 }
 
 .digit-bar a:hover {
@@ -175,7 +178,7 @@ hr {
 
 .footer img {
   width: 51px !important;
-  height: 53px !important; 
+  height: 53px !important;
 }
 
 .footer1 {
@@ -185,14 +188,10 @@ hr {
   line-height: 25px;
 }
 
-.footer1 a {
-  color: #000;
-}
-
 .blog-poster {
   width: 33%;
   height: fit-content;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
 
 .blog-poster h3,
@@ -254,7 +253,7 @@ hr {
   }
 
   .mail {
-    padding: 20px 20px;
+    padding: 20px;
   }
 
   .about-me {
